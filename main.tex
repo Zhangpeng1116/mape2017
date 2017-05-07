@@ -136,9 +136,17 @@ The average path loss of on-body channels in different polarization combinations
 
 \subsection{$V$-polarization convergence}
 
+\begin{figure}[!t]
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=0.5\textwidth]{figs/6.eps}\\
+  \caption{The percentage of 3 polarizations of the receiving side in minimal loss channel polarizations and maximal loss channel polarizations respectively.}
+  \label{fig:polarization percentage}
+\end{figure}
+
 The first observation of the channel loss in both postures is that most channels shows $V$-polarization convergence at the receiving side. Under standing posture for instance,  the minimal channel loss of scenarios T-LS and C-LA are achieved in $VV$ channel polarization, and $ZV$ channel polarization for T-LW, LS-C and LE-LW scenarios. Similar properties are also observed in these scenarios under the sitting posture. One exception under sitting postures is the LE-LW scenarios, whose minimal channel loss is achieved in $HH$ channel polarization, a possible consequence of the body coupling effect variation to the antennas during posture changes. 
 
-On the contrary, in all scenarios investigated in two postures, the maximal channel loss does not occur in channel polarizations with $V$-polarization at the receiving side for all polarizations at the tranmit side.  In some scenarios, e.g. the T-LW and LS-C under sitting posture, the maximal channel loss is observed in channel polarization with $V$-polarization at the transmitting side instead of at the receiving side. This indicates that having the receiving antenna in $V$-polarization helps to capture the majority of the on-body channel field components.
+On the contrary, in all scenarios investigated in two postures, the maximal channel loss does not occur in channel polarizations with $V$-polarization at the receiving side for all polarizations at the tranmit side.  In some scenarios, e.g. the T-LW and LS-C under sitting posture, the maximal channel loss is observed in channel polarization with $V$-polarization at the transmitting side instead of at the receiving side. As shown in Fig.\ref{fig:polarization percentage}, the percentage of $V$-polarization of the receiving side can up to 90 percent in minimal loss channel polarizations, $Z$-polarization at the receiving side should be avoided due to the proportion of up to 70 percent in maximal loss channel polarizations. This indicates that having the receiving antenna in $V$-polarization helps to capture the majority of the on-body channel field components.
 
 
 The above observations show that on-body channels tend to have their field distributed along directions normal to the body. As consistent with previous FDTD simulations, the body coupling effect causes the absorbing of the on-body fields tagential to the skin, while the fields normal to the skin are less affected. As a result, the field will left the majority part along the normal direction. This may suggest therefore an optimal antenna emplacement for the communication aspects.
@@ -176,7 +184,7 @@ To quantize the receiving advantage of receiving $V$-polarization, we define its
 	G_{V}=\frac{\sum\limits_I\sum\limits_J\text{Pl}_{IJ}}{6} -\frac{\sum\limits_I{\text{Pl}_{IV}}}{3},
 \label{ep:1}
 \end{equation}
-where $I\in\{Z,H,V\}$ is the transmit polarization, $J\in\{Z,H\}$ is the receiving polarization other than $V$. $\text{Pl}(IJ)$ is the path loss of $IJ$ channel polarization, $\text{PL}{IV}$ is the path loss of $IV$ channel polarization.
+where $I\in\{Z,H,V\}$ is the transmit polarization, $J\in\{Z,H\}$ is the receiving polarization other than $V$. $\text{Pl}_{IJ}$ is the path loss of $IJ$ channel polarization, $\text{Pl}_{IV}$ is the path loss of $IV$ channel polarization.
 
 The  V-polarization gain of each channel is summarized in Fig.\ref{fig:2}. In general, the $V$-polarization gain of scenarios under standing posture is better than that under sitting posture. The $V$-polarization gain of scenarios under standing posture is in average greater than 5 dB. Meanwhile, $V$-polarization gain of scenarios under sitting posture is in average greater than 3 dB.
 
