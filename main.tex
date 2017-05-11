@@ -41,10 +41,18 @@ On-body propagation channels show significant polarization selectivity in static
 
 %\end{keywords}
 %\IEEEpeerreviewmaketitle
+
+%Check all references!!!!
+%Check all references!!!!
+%Check all references!!!!
+%Check all references!!!!
+%Check all references!!!!
+%Check all references!!!!
+%Check all references!!!!
 \section{Introduction}
 On-body communications in wireless body area networks (WBANs) are short distance communications defined on or above the body of limited height \cite{1}. An essential feature of on-body propagation channels is that they do not follow conventional far-field propagation principles and exhibits complex near-field characteristics including the body scattering effects\cite{2,3} and surface wave propagation \cite{5}. Studies as \cite{6} have shown the high sensitivity of on-body channels to the orientation of the transmit and receiving antennas, implying a possible polarization diversity for ultra-low powered sensor communication in e.g. medical and wearable applications.
 
-Earlier studies on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{} have shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7} is that most of the measurements cover partial polarization configurations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribtuion under specific scenarios is necessary to correctly capture the field components of the on-body channels.
+Earlier study on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{manuscriptMap2017} has shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7} is that most of the measurements cover partial polarization configurations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribtuion under specific scenarios is necessary to correctly capture the field components of the on-body channels.
 
 In this work, measurements of polarized narrowband on-body channels at 2.4 GHz on static human body are conducted in indoor environment. Full polarization configuration are investigated for channels covering the key parts of the body. Two static postures of the body, i.e. the standing and sitting postures, were invesitgated, and the cchannel polarization distribution under the two postures were compared. The polarization matrix and the cross polarization descrimination (XPD) matrix for each scenario are summarized. The polarization gain and the depolarization ratio of the investigated on-body channels are invstigated.
 
@@ -96,6 +104,7 @@ Antenna size&5 cm\\
 \hline
 \end{tabular}
 \end{table}
+
 
 FDTD simulations as reported in \cite{} have shown that the field around the human body does not fully follow far-field propagation principles. The propagation path, as commonly defined by the surface wave presumption for on-body channels, may not be strictly perpendicular to the direction of the field polarization due to the body scattering effect and the near-field features of the radio waves. Consequently this will cause the polarization dispersion onto all directions. To effectively describe such inconsistency between the channel polarization and the propagation path, we suggest to define an on-body antenna's polarization in full-space dimension with respect to its relative positioning to the skin, which are vertical tangential, denoted as $Z$ direction, horizontal tangential, denoted as $H$ direction, and horizontal normal, denoted as $V$ direction, as denoted in Fig. \ref{fig:polarization_direction}. Note that because of the irregularity of the shapes of different parts of the body, the directions may be defined in different global orientations as well. By the extended definition of on-body antenna polarization, an on-body channel's polarization can be decomposed into 9 combinations, denoted as $XY$, $X, Y \in \{Z,V,H\}$, where X is the polarization of the transmit antenna and Y is the polarization of the receiving antenna.
 
@@ -202,9 +211,23 @@ where $i,j \in \{V,H,Z\}$, $P_{ii}$ is the power of the co-polarized channel com
 
 The XPD in Eq. \ref{eq:2} may describe three situations of the channel cross-polarization. First, if XPD is positive, the higher of the value indicates that the channel tends to concentrate on its co-polarization component. Second, if XPD is negative, the smaller of the value indicates that the channel is transmitting its fields to the cross-polarization component. Third, if the XPD gets close to 0, the channel is considered to be depolarized, and the field will be projected both onto the co-polarized and cross-polarized components of the channel.
 
-We studied the de-polarization in 6 channel cross-polarizations, which are $XPD_{ZZ,ZV}$, $XPD_{ZZ,ZH}$, ..., as presented in Fig. \ref{fig:3}, categoried in two postures.
+%Complete the symbols!!!!!!!!!!!!!!!!!
+%Complete the symbols!!!!!!!!!!!!!!!!!
+%Complete the symbols!!!!!!!!!!!!!!!!!
+%Complete the symbols!!!!!!!!!!!!!!!!!
 
-The negative XPD of $ZZ-ZV$ and $ZZ-ZH$ scenarios shows the cross-polarized configurations remain dominant in all channels, and $ZV$ combination is better suited to on-body channels than $ZH$ combination because of the greater absolute XPD of $ZZ-ZV$ scenario. The positive XPD of $VV-VZ$ scenario shows $VV$ combination remains dominate in each channel. On the other hand, the LE-LW channel is strongly depolarized in $VV-VH$ and $HH-HV$ scenarios, with the XPD nearly equal to 0dB. The strong depolarization also occurred in T-LW channel of $HH-HZ$ scenario and T-LS channel of $HH-HV$ scenario. Besides, since the absolute XPD of each scenario is close to 10 dB or more for most on-body channels, most channels of all kinds of scenario can keep a stable polarization characteristic in the standing posture. The XPD of the sitting posture is shown in Fig.\ref{fig:3}(b). Unlike the case of  the standing posture , we can find that there is the strongly depolarized channel in each scenario, for example, C-LA channel in $ZZ-ZV$ scenario, $LS-C$ channel in $ZZ-ZH$ scenario and T-LS channel in $VV-VH$ scenario. These show human sitting posture is more likely to cause depolarization of on-body channels. The main reason is that on-body channels are affected by the leg scattering, while the placement of the arm also will cause certain interference to the on-body communication links in the sitting posture.
+We studied in total of 6 XPD configurations in the investigated channels, which are $\text{XPD}_{Z,V}$, $XPD_{Z,H}$, ..., as presented in Fig. \ref{fig:3}, categoried in two postures.
+
+%Define |XPD| < 10 dB can be viewed as channel containing depolarization
+%Define |XPD| < 10 dB can be viewed as channel containing depolarization
+%Define |XPD| < 10 dB can be viewed as channel containing depolarization
+%Define |XPD| < 10 dB can be viewed as channel containing depolarization
+
+The negative $XPD_{Z,V}$, XPD of $ZZ-ZV$ and $ZZ-ZH$ scenarios shows the cross-polarized configurations remain dominant in all channels, and channel in $ZV$ polarization is better suited to on-body channels than channels in $ZH$ polarization because of the larger absolute $\text{XPD}_{Z,V}$. %value of $ZZ-ZV$ scenario. 
+The positive XPD of $VV-VZ$ scenario shows $VV$ combination remains dominate in each channel. On the other hand, the LE-LW channel is strongly depolarized in $VV-VH$ and $HH-HV$ scenarios, with the XPD nearly equal to 0 dB. The strong depolarization also occurred in T-LW channel of $HH-HZ$ scenario and T-LS channel of $HH-HV$ scenario. Besides, since the absolute XPD of each scenario is close to 10 dB or more for most on-body channels, most channels of all kinds of scenario can keep a stable polarization characteristic in the standing posture. The XPD of the sitting posture is shown in Fig.\ref{fig:3}(b). Unlike the case of  the standing posture, we can find that there is the strongly depolarized channel in each scenario, for example, C-LA channel in $ZZ-ZV$ scenario, $LS-C$ channel in $ZZ-ZH$ scenario and T-LS channel in $VV-VH$ scenario. These show human sitting posture is more likely to cause depolarization of on-body channels. The main reason is that on-body channels are affected by the leg scattering, while the placement of the arm also will cause certain interference to the on-body communication links in the sitting posture.
+
+%1. paragraph on cross polarization (xpd>10 db)
+%2. paragraph on depolarization (xpd < 10 db)
 
 In addition, we find that the XPD of the on-body propagation channels under the scenarios $ZZ-ZV$ and $HH-HV$ is generally negative and the XPD of the scenarios $VV-VZ$ and $VV-VH$ are generally positive values, regardless of the standing and sitting postures. These indicate that the receiving antenna can generally obtain the decent component of the field in the $V$-polarization direction, regardless of the polarization direction polarization of the transmission antenna. At the same time, this is also the reason why the receiving antenna with $V$-polarization can effectively receive signal and reduce the path loss.
 
@@ -216,6 +239,8 @@ This paper was supported by the Natural Science Foundation of China (NSFC) under
 
 \begin{thebibliography}{1}
 
+\bibitem{manuscriptMap2017}
+	L. Liu, X. Wang, and N. Jiang. "Investigation of on-body channel polarization distribution around the torso at 2.45 GHz by FDTD simulations." \emph{submitted to IET MAP.} 2017
 \bibitem{1}
 Bae, Joonsung, and Hoi-Jun Yoo. "The effects of electrode configuration on body channel communication based on analysis of vertical and horizontal electric dipoles."\emph{IEEE Transactions on Microwave Theory and Techniques} 63.4 (2015): 1409-1420.
 %H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
