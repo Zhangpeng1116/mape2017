@@ -50,9 +50,9 @@ On-body propagation channels show significant polarization selectivity in static
 %Check all references!!!!
 %Check all references!!!!
 \section{Introduction}
-On-body communications in wireless body area networks (WBANs) are short distance communications defined on or above the body of limited height \cite{1}. An essential feature of on-body propagation channels is that they do not follow conventional far-field propagation principles and exhibits complex near-field characteristics including the body scattering effects\cite{2,3} and surface wave propagation \cite{5}. Studies as \cite{6} have shown the high sensitivity of on-body channels to the orientation of the transmission and receiving antennas, implying a possible polarization diversity for ultra-low powered sensor communication in e.g. medical and wearable applications.
+On-body communications in wireless body area networks (WBANs) are short distance communications (\textless\;2\;m) \cite{1} defined on or above the body of limited height. An essential feature of on-body propagation channels is that they do not follow conventional far-field propagation principles and exhibits complex near-field characteristics including the body scattering effects \cite{2} and surface wave propagation \cite{3}. Studies as \cite{4} have shown the high sensitivity of on-body channels to the orientation of the transmission and receiving antennas, implying the effectiveness of polarization diversity with a wearable BAN.
 
-Earlier study on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{manuscriptMap2017} has shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7} is that most of the measurements cover partial polarization configurations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribution under specific scenarios is necessary to correctly capture the field components of the on-body channels.
+Earlier study on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{manuscriptMap2017} has shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7,8} is that most of the measurements cover partial polarization configurations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribution under specific scenarios is necessary to correctly capture the field components of the on-body channels.
 
 In this work, measurements of polarized narrowband on-body channels at 2.4 GHz on static human body are conducted in indoor environment. Full polarization combinations are investigated for channels covering the key parts of the body. Two static postures of the body, i.e. the standing and sitting postures, were investigated, and the channel polarization distributions under the two postures were compared. The polarization matrix and the cross polarization discrimination (XPD) matrix for each scenario are summarized. The polarization gain and the depolarization ratio of the investigated on-body channels are investigated.
 
@@ -239,26 +239,32 @@ This paper was supported by the Natural Science Foundation of China (NSFC) under
 
 \begin{thebibliography}{1}
 
-\bibitem{manuscriptMap2017}
-	L. Liu, X. Wang, and N. Jiang. "Investigation of on-body channel polarization distribution around the torso at 2.45 GHz by FDTD simulations." \emph{submitted to IET MAP.} 2017
 \bibitem{1}
-Bae, Joonsung, and Hoi-Jun Yoo. "The effects of electrode configuration on body channel communication based on analysis of vertical and horizontal electric dipoles."\emph{IEEE Transactions on Microwave Theory and Techniques} 63.4 (2015): 1409-1420.
+Bae, Joonsung, and Hoi-Jun Yoo. "The effects of electrode configuration on body channel communication based on analysis of vertical and horizontal electric dipoles." \emph{IEEE Transactions on Microwave Theory and Techniques} 63.4 (2015): 1409-1420.
 %H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
   %0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 \bibitem{2}
-Li, Yang, et al. "Human Activity Classification Based on Dynamic Time Warping of an On-Body Creeping Wave Signal." \emph{IEEE Transactions on Antennas and Propagation} 64.11 (2016): 4901-4905.
+Lu, Xiyu, et al. "UWB-based Wireless Body Area Networks channel modeling and performance evaluation." \emph{Wireless Communications and Mobile Computing Conference (IWCMC), 2011 7th International.} IEEE, 2011.
+%Li, Yang, et al. "Human Activity Classification Based on Dynamic Time Warping of an On-Body Creeping Wave Signal." \emph{IEEE Transactions on Antennas and Propagation} 64.11 (2016): 4901-4905.
 \bibitem{3}
-Kumpuniemi, Timo, et al. "Dynamic on-body UWB radio channel modeling." \emph{Medical Information and Communication Technology (ISMICT), 2015 9th International Symposium on}. IEEE, 2015.
+Li, Yang, et al. "Human Activity Classification Based on Dynamic Time Warping of an On-Body Creeping Wave Signal." \emph{IEEE Transactions on Antennas and Propagation} 64.11 (2016): 4901-4905.
+%Kumpuniemi, Timo, et al. "Dynamic on-body UWB radio channel modeling." \emph{Medical Information and Communication Technology (ISMICT), 2015 9th International Symposium on}. IEEE, 2015.
 \bibitem{4}
-Li, Kun, Kazuhiro Honda, and Koichi Ogawa. "Experiments of a polarization-controlled active antenna to enhance BAN on-body link in human dynamic channels." \emph{Medical Information and Communication Technology (ISMICT), 2015 9th International Symposium on}. IEEE, 2015.
-\bibitem{5}
-Uusitupa, Tero, and Takahiro Aoyagi. "Analysis of dynamic on-body communication channels for various movements and polarization schemes at 2.45 GHz." \emph{IEEE Transactions on Antennas and Propagation} 61.12 (2013): 6168-6179.
+Aoyagi, Takahiro, et al. "Numerical simulations for dynamic WBAN propagation channel during various human movements." \emph{Medical Information $\&$ Communication Technology (ISMICT), 2011 5th International Symposium on.} IEEE, 2011.
+\bibitem{manuscriptMap2017}
+L. Liu, X. Wang, and N. Jiang. "Investigation of on-body channel polarization distribution around the torso at 2.45 GHz by FDTD simulations." \emph{submitted to IET MAP.} 2017
 \bibitem{6}
-Paraskevopoulos, A., et al. "Modelling of dynamic on-body channels using different types of wearable antennas." \emph{Antennas and Propagation (EuCAP)}, 2014 8th European Conference on. IEEE, 2014.
+Li, Kun, Kazuhiro Honda, and Koichi Ogawa. "Analysis of the body proximity cross-polarization power ratio in a human walking motion." \emph{Microwave Conference (APMC), 2015 Asia-Pacific.} Vol. 2. IEEE, 2015.
+%Uusitupa, Tero, and Takahiro Aoyagi. "Analysis of dynamic on-body communication channels for various movements and polarization schemes at 2.45 GHz." \emph{IEEE Transactions on Antennas and Propagation} 61.12 (2013): 6168-6179.
 \bibitem{7}
-Li, Kun, Kazuhiro Honda, and Koichi Ogawa. "On-body polarization-controlled active antenna to enhance signal power in human dynamic channels." \emph{Antennas and Propagation (ISAP)}, 2014 International Symposium on. IEEE, 2014.
+Petrillo, Luca, et al. "Statistical on-body measurement results at 60 GHz." \emph{IEEE transactions on antennas and propagation} 63.1 (2015): 400-403.
+%Paraskevopoulos, A., et al. "Modelling of dynamic on-body channels using different types of wearable antennas." \emph{Antennas and Propagation (EuCAP)}, 2014 8th European Conference on. IEEE, 2014.
 \bibitem{8}
-Nechayev Y I, Constantinou C C, Wu X, et al. De-polarization of on-body channels and polarization diversity at 60 GHz[J]. \emph{IEEE Transactions on Antennas and Propagation}, 2014, 62(12): 6519-6523.
+Nechayev Y I, Constantinou C C, Wu X, et al. De-polarization of on-body channels and polarization diversity at 60 GHz[J]. \emph{IEEE Transactions on Antennas and Propagation,} 2014, 62(12): 6519-6523.
+%\bibitem{10}
+%Aoyagi, Takahiro, et al. "Numerical simulations for dynamic WBAN propagation channel during various human movements." \emph{Medical Information & Communication Technology (ISMICT), 2011 5th International Symposium on.} IEEE, 2011.
+%\bibitem{11}
+%Lu, Xiyu, et al. "UWB-based Wireless Body Area Networks channel modeling and performance evaluation." \emph{Wireless Communications and Mobile Computing Conference (IWCMC), 2011 7th International.} IEEE, 2011.
 \end{thebibliography}
 
 
