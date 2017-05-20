@@ -27,7 +27,7 @@
 \author{Lingfeng~Liu$^1$, Peng~Zhang$^1$, Xiaonan~Wang$^1$, Chaoqun~Wang$^2$\\
 \\
 $^1$School of Information Engineering, East China Jiaotong University, China \\
-$^2$School of Information Engineering,  Nanchang University, China}
+$^2$School of Information Engineering, Nanchang University, China}
 %\address{$^1$School of Information Engineering, East China Jiaotong University, China \\
 %$^2$School of Information Engineering, East China Jiaotong University, China\\
 
@@ -52,11 +52,11 @@ On-body propagation channels show significant polarization selectivity in static
 \section{Introduction}
 On-body communications in wireless body area networks (WBANs) are short distance communications (\textless\;2\;m) \cite{1} defined on or above the body of limited height. An essential feature of on-body propagation channels is that they do not follow conventional far-field propagation principles and exhibits complex near-field characteristics including the body scattering effects \cite{2} and surface wave propagation \cite{3}. Studies as \cite{4} have shown the high sensitivity of on-body channels to the orientation of the transmission and receiving antennas, implying the effectiveness of polarization diversity with a wearable BAN.
 
-Earlier study on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{manuscriptMap2017} has shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7,8} is that most of the measurements cover partial polarization configurations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribution under specific scenarios is necessary to correctly capture the field components of the on-body channels.
+Earlier study on the finite-difference-time-domain (FDTD) simulations of the electromagnetic fields on the body surface \cite{manuscriptMap2017} has shown that due to the near-field body scattering effects, the surface wave propagation assumption may not fully consistent with the actual wave propagation in on-body channels, resulting the channel polarization dispersion both along and normal to the propagation path defined. The postures and body dynamics will further lead to the variation of the on-body polarization distribution over time and space domains. One limitation of previous measurements as reported in \cite{6,7,8} is that most of the measurements cover partial polarization combinations of on-body channels. Consequently, the polarization matrix of the channels are not fully characterized and modeled. Full-space description of the channel polarization distribution under specific scenarios is necessary to correctly capture the field components of the on-body channels.
 
-In this work, measurements of polarized narrowband on-body channels at 2.4 GHz on static human body are conducted in indoor environment. Full polarization combinations are investigated for channels covering the key parts of the body. Two static postures of the body, i.e. the standing and sitting postures, were investigated, and the channel polarization distributions under the two postures were compared. The polarization matrix and the cross polarization discrimination (XPD) matrix for each scenario are summarized. The polarization gain and the depolarization ratio of the investigated on-body channels are investigated.
+In this work, measurements of polarized narrowband on-body channels at 2.4 GHz on static human body are conducted in indoor environment. Full polarization combinations are investigated for channels covering the key parts of the body. Two static postures of the body, i.e. the standing and sitting postures, were investigated, and the channel polarization distributions under the two postures were compared. The polarization matrix and the cross polarization discrimination (XPD) matrix for each scenario are summarized. The polarization gain and the depolarization ratio of the on-body channels are investigated.
 
-This paper is organized as follows. Section \ref{sec:setup} describe the configuration of the measurements. Section \ref{sec:analysis} present the statistical analysis of the channel polarization distribution and depolarization characteristics. Finally, section \ref{sec:conslusion} summarize the analysis.
+This paper is organized as follows. Section \ref{sec:setup} describes the configuration of the measurements. Section \ref{sec:analysis} presents the statistical analysis of the channel polarization distribution and depolarization characteristics. Finally, Section \ref{sec:conclusion} summarizes the analysis.
 
 \section{Measurement Settings}\label{sec:setup}
 
@@ -64,14 +64,17 @@ This paper is organized as follows. Section \ref{sec:setup} describe the configu
   \centering
   \begin{subfigure}[t]{0.3\textwidth}
   \includegraphics[width=\textwidth]{figs/1a.eps}
+  \caption{}
   \label{fig:volunteer}
   \end{subfigure}
   \begin{subfigure}[t]{0.25\textwidth}
   \includegraphics[width=4.5cm,height=5cm]{figs/1b.eps}
+  \caption{}
   \label{fig:placement}
   \end{subfigure}
   \begin{subfigure}[t]{0.19\textwidth}
   \includegraphics[width=3cm,height=5cm]{figs/1c.eps}
+  \caption{}
   \label{fig:polarization_direction}
   \end{subfigure}
 \caption{Measurement context at 2.4 GHz. (a) Indoor scenario and human body postures. (b) Node placement on the body. (c) The definition of Polarization direction in different parts of the body.}
@@ -87,7 +90,7 @@ A vector network analyzer (VNA) of type R\&S ZNB 20 was applied to measurement t
 \begin{table}[!t]
 \centering
 \captionsetup{labelsep=newline}
-\caption{RADIO SETTINGS}
+\caption{Radio Settings}
 \label{tab:1}
 \begin{tabular}{cc}
 \hline
@@ -113,7 +116,7 @@ FDTD simulations as reported in \cite{} have shown that the field around the hum
 \begin{table}[!t]
 \centering
 \captionsetup{labelsep=newline}
-\caption{Path loss summary of measurements [dB]}
+\caption{Path Loss Summary of Measurements [dB]}
 \label{tab:2}
 \scalebox{0.85}{
 \begin{tabular}{cccccccccc}
@@ -141,7 +144,7 @@ LE-LW&39.05&35.77&32.07&44.11&28.52&32.32&56.16&33.52&25.91\\
 \end{table}
 
 
-The average path losses of on-body channels in different polarization combinations are summarized in Table \ref{tab:2} and categorized by the postures respectively.
+The average path losses of on-body channels in different polarization combinations are summarized in table \ref{tab:2} and categorized by the postures respectively.
 
 \subsection{$V$-polarization convergence}
 
@@ -153,9 +156,9 @@ The average path losses of on-body channels in different polarization combinatio
   \label{fig:polarization percentage}
 \end{figure}
 
-The first observation of the channel loss in both postures is that most channels shows $V$-polarization convergence at the receiving side. Under standing posture for instance, the minimal channel loss of scenarios T-LS and C-LA are achieved in $VV$ channel polarization, and $ZV$ channel polarization for T-LW, LS-C and LE-LW scenarios. Similar properties are also observed in these scenarios under the sitting posture. One exception under sitting postures is the LE-LW scenarios, whose minimal channel loss is achieved in $HH$ channel polarization, a possible consequence of the body coupling effect variation to the antennas during posture changes.
+The first observation of the channel loss in both postures is that most channels show $V$-polarization convergence at the receiving side. Under standing posture for instance, the minimal channel loss of scenarios T-LS and C-LA are achieved in $VV$ channel polarization, and $ZV$ channel polarization for T-LW, LS-C and LE-LW scenarios. Similar properties are also observed in these scenarios under the sitting posture. One exception under sitting postures is the LE-LW scenarios, whose minimal channel loss is achieved in $HH$ channel polarization, a possible consequence of the body coupling effect variation to the antennas during posture changes.
 
-On the contrary, in all scenarios investigated in two postures, the maximal channel loss does not occur in channel polarizations with $V$-polarization at the receiving side for all polarizations at the transmit side.  In some scenarios, e.g. the T-LW and LS-C under sitting posture, the maximal channel loss is observed in channel polarization with $V$-polarization at the transmitting side instead of at the receiving side. As shown in Fig.\ref{fig:polarization percentage}, the percentage of $V$-polarization of the receiving side can up to 90 percent in minimal loss channel polarizations, $Z$-polarization at the receiving side should be avoided due to the proportion of up to 70 percent in maximal loss channel polarizations. This indicates that having the receiving antenna in $V$-polarization helps to capture the majority of the on-body channel field components.
+On the contrary, in all scenarios investigated in two postures, the maximal channel loss does not occur in channel polarizations with $V$-polarization at the receiving side for all polarizations at the transmit side.  In some scenarios, e.g. the T-LW and LS-C under sitting posture, the maximal channel loss is observed in channel polarization with $V$-polarization at the transmitting side instead of at the receiving side. As shown in Fig. \ref{fig:polarization percentage}, the percentage of $V$-polarization of the receiving side can up to 90 percent in minimal loss channel polarizations, $Z$-polarization at the receiving side should be avoided due to the proportion of up to 70 percent in maximal loss channel polarizations. This indicates that having the receiving antenna in $V$-polarization helps to capture the majority of the on-body channel field components.
 
 
 The above observations show that on-body channels tend to have their field distributed along directions normal to the body. As consistent with previous FDTD simulations, the body coupling effect causes the absorbing of the on-body fields tangential to the skin, while the fields normal to the skin are less affected. As a result, the field will make the majority part along the normal direction. This may suggest therefore an optimal antenna emplacement for the communication aspects.
@@ -190,12 +193,12 @@ The above observations show that on-body channels tend to have their field distr
 To quantize the receiving advantage of receiving $V$-polarization, we define its polarization gain in Eq. \ref{eq:1}.
 
 \begin{equation}
-	G_{V}=\frac{\sum\limits_I\sum\limits_J\text{Pl}_{IJ}}{6} -\frac{\sum\limits_I{\text{Pl}_{IV}}}{3},
+	G_{V}=\frac{\sum\limits_I\sum\limits_J\text{PL}_{IJ}}{6} -\frac{\sum\limits_I{\text{PL}_{IV}}}{3},
 \label{eq:1}
 \end{equation}
-where $I\in\{Z,H,V\}$ is the transmit polarization, $J\in\{Z,H\}$ is the receiving polarization other than $V$. $\text{Pl}_{IJ}$ is the path loss of $IJ$ channel polarization, $\text{Pl}_{IV}$ is the path loss of $IV$ channel polarization.
+where $I\in\{Z,H,V\}$ is the transmit polarization, $J\in\{Z,H\}$ is the receiving polarization other than $V$. $\text{PL}_{IJ}$ is the path loss of $IJ$ channel polarization, $\text{PL}_{IV}$ is the path loss of $IV$ channel polarization.
 
-The $V$-polarization gain of each channel is summarized in Fig.\ref{fig:2}. In general, the $V$-polarization gain of scenarios under standing posture is better than that under sitting posture. The $V$-polarization gain of scenarios under standing posture is in average greater than 5 dB. Meanwhile, $V$-polarization gain of scenarios under sitting posture is in average greater than 3 dB.
+The $V$-polarization gain of each channel is summarized in Fig. \ref{fig:2}. In general, the $V$-polarization gain of scenarios under standing posture is better than that under sitting posture. The $V$-polarization gain of scenarios under standing posture is in average greater than 5 dB. Meanwhile, $V$-polarization gain of scenarios under sitting posture is in average greater than 3 dB.
 
 \subsection{Channel depolarization}
 The results presented in table \ref{tab:2} show as well heavy cross polarization in different scenarios. If the on-body communication systems are designed following regular antenna emplacement, i.e. the orientation of the antennas are either in $Z$, $H$, or $V$ directions, such cross polarization may cause the actual field polarization of the on-body channel be apart from these regular directions. We denote this as the channel depolarization effect.
@@ -204,7 +207,7 @@ The channel depolarization can be described via the cross-polarization discrimin
 
  \begin{align}
 	 \text{XPD}_{i,j}&=\frac{P_{ii}}{P_{ij}} \quad[dB]\nonumber\\
-	 &=\text{Pl}_{ij}[dB]-\text{Pl}_{ij}[dB], \label{eq:2}
+	 &=\text{PL}_{ij}[dB]-\text{PL}_{ij}[dB], \label{eq:2}
 \end{align}
 where $i,j \in \{V,H,Z\}$, $P_{ii}$ is the power of the co-polarized channel component and $P_{ij}$ is the cross-polarized channel component.
 
@@ -222,7 +225,7 @@ We studied in total of 6 XPD configurations in the investigated channels, which 
 %Define |XPD| < 10 dB can be viewed as channel containing depolarization
 %Define |XPD| < 10 dB can be viewed as channel containing depolarization
 
-As shown as the Fig.\ref{fig:3}(b), the negative values of $\text{XPD}_{Z,V}$ and $\text{XPD}_{Z,H}$ configurations show the cross-polarized configuration remain dominant in all channels, and $ZV$ combination is better suited to on-body channels than $ZH$ combination because of the larger absolute $\text{XPD}_{Z,V}$. The positive values of $\text{XPD}_{V,Z}$ configuration show $VV$ combination remains dominate in each channel. On the other hand, the LE-LW channel is strongly depolarized in $\text{XPD}_{V,H}$ and $\text{XPD}_{H,V}$ configurations, with the XPD close to 0 dB. The strong depolarization also occurred in T-LW channel of $\text{XPD}_{H,Z}$ configuration and T-LS channel of $\text{XPD}_{H,V}$ configuration. The XPD of the sitting posture is shown in Fig.\ref{fig:3}(b). we can find that the phenomenon of depolarization is more common. On-body channels of $\text{XPD}_{Z,H}$ and $\text{XPD}_{H,V}$ configurations are generally depolarized, where most of the absolute values are less 10 dB or even close to 0 dB. The channel depolarization also occurred in other configurations, for example, C-LA channel in $\text{XPD}_{Z,V}$ configuration and T-LS channel in $\text{XPD}_{V,H}$ configuration. These show human sitting posture is more likely to cause depolarization of on-body channels.
+As shown as the Fig. \ref{fig:3}(a), the negative values of $\text{XPD}_{Z,V}$ and $\text{XPD}_{Z,H}$ configurations show the cross-polarized configuration remain dominant in all channels, and $ZV$ combination is better suited to on-body channels than $ZH$ combination because of the larger absolute $\text{XPD}_{Z,V}$. The positive values of $\text{XPD}_{V,Z}$ configuration show $VV$ combination remains dominate in each channel. On the other hand, the LE-LW channel is strongly depolarized in $\text{XPD}_{V,H}$ and $\text{XPD}_{H,V}$ configurations, with the XPD close to 0 dB. The strong depolarization also occurred in T-LW channel of $\text{XPD}_{H,Z}$ configuration and T-LS channel of $\text{XPD}_{H,V}$ configuration. The XPD of the sitting posture is shown in Fig. \ref{fig:3}(b). We can find that the phenomenon of depolarization is more common. On-body channels of $\text{XPD}_{Z,H}$ and $\text{XPD}_{H,V}$ configurations are generally depolarized, where most of the absolute values are less 10 dB or even close to 0 dB. The channel depolarization also occurred in other configurations, for example, C-LA channel in $\text{XPD}_{Z,V}$ configuration and T-LS channel in $\text{XPD}_{V,H}$ configuration. These show human sitting posture is more likely to cause depolarization of on-body channels.
 
 In addition to individual cases mentioned above, since the absolute values of each configuration are nearly equal to 10 dB or more for most on-body channels, most channels of all kinds of configurations can keep a stable polarization characteristic in the standing posture. Unlike the case of  the standing posture, we can find that the number of channels with stable polarization characteristic in each scenario is significantly reduced under the sitting posture, especially in the case of configurations $\text{XPD}_{Z,V}$ and $\text{XPD}_{Z,H}$. The main reason is that on-body channels are affected by the leg scattering, while the placement of the arm also will cause certain interference to the on-body communication links in the sitting posture.
 
@@ -232,7 +235,7 @@ In addition to individual cases mentioned above, since the absolute values of ea
 Besides, we find that the values of the on-body propagation channels under the configurations $\text{XPD}_{Z,V}$ and $\text{XPD}_{H,V}$ are generally negative, while the $\text{XPD}_{V,Z}$ and $\text{XPD}_{V,H}$ configurations are generally positive values, regardless of the standing and sitting postures. These indicate that the receiving antenna can generally obtain the decent component of the field in the $V$-polarization direction, regardless of the polarization direction polarization of the transmission antenna. At the same time, this is also the reason why the receiving antenna with $V$-polarization can effectively receive signal and reduce the path loss.
 
 \section{Conclusion}\label{sec:conclusion}
-In this paper, measurement results of narrowband polarized static on-body channels at 2.4 GHz are presented under complete polarization combination in space. Analysis of the measurements demonstrate that $V$-polarization of the receiving antenna can effectively reduce the path loss and capture signal waves. The gain of receiving $V$-polarization of each channel can up to at least 3 dB in the sitting posture, and the $V$-polarization gain of each on-body channel can up to at last 5 dB in the standing posture. Depolarization of on-body channels is more serious in the sitting posture due to the effect of leg scattering. The receiving antenna with $V$-polarization is more beneficial to obtain the decent field component compared with the $Z$ and $H$ polarization of the receiving antenna by analyzing the depolarization characteristics of static on-body channels, regardless of the polarization direction of the transmission antenna. This once again proved that the receiving antenna with $V$-polarization can effectively reduce the path loss.
+In this paper, measurement results of narrowband polarized static on-body channels at 2.4 GHz are presented under complete polarization combination in space. Analyses of the measurements demonstrate that $V$-polarization of the receiving antenna can effectively reduce the path loss and capture signal waves. The gain of receiving $V$-polarization of each channel can up to at least 3 dB in the sitting posture, the $V$-polarization gain of each on-body channel can up to at last 5 dB in the standing posture. Depolarization of on-body channels is more serious in the sitting posture due to the effect of leg scattering. The receiving antenna with $V$-polarization is more beneficial to obtain the decent field component compared with the $Z$ and $H$ polarization of the receiving antenna by analyzing the depolarization characteristics of static on-body channels, regardless of the polarization direction of the transmission antenna. This once again proved that the receiving antenna with $V$-polarization can effectively reduce the path loss.
 
 \section*{Acknowledgment}
 This paper was supported by the Natural Science Foundation of China (NSFC) under grant No.81460275.
